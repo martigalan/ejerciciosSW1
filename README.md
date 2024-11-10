@@ -11,3 +11,13 @@ Este ejercicio consiste en crear un servidor en Node.js que, al cargar la págin
 - **Archivos incluidos**:
   - `ejercicio3.js`
   - `diccionario.txt`
+## Ejercicio 4
+Este ejercicio consiste en realizar un **web scraping** utilizando la librería `cheerio` y `node-fetch` para obtener información de una página archivada en el **Internet Archive**. Se compara el contenido de dos versiones distintas de un mismo sitio web (en este caso, el sitio de **Spiegel**) y se extraen los titulares principales. 
+- **Fecha**: 10-11-2024
+- **Descripción**: 
+  - Se accede a dos versiones de un sitio web almacenadas en **Wayback Machine**: una de 2013 y otra de 2023.
+  - Se extraen los titulares principales (`h2` y `h3`) de ambas versiones.
+  - Se comparan los titulares para identificar cambios y variaciones.
+- **Archivos incluidos**:
+  - `ejercicio4.js`
+  - `package.json` (incluye las dependencias necesarias para el ejercicio, añadiendo "type":"module" para poder usar fetch)
